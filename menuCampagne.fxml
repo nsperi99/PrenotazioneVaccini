@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prenotazionevaccini.MenuCampagneController">
+   <children>
+      <AnchorPane layoutX="187.0" layoutY="93.0" maxHeight="900.0" maxWidth="1200.0" prefHeight="519.0" prefWidth="912.0" style="-fx-background-color: #3A3A3C;" AnchorPane.bottomAnchor="108.0" AnchorPane.leftAnchor="187.0" AnchorPane.rightAnchor="181.0" AnchorPane.topAnchor="93.0">
+         <children>
+            <Label alignment="CENTER" layoutX="240.0" layoutY="53.0" prefHeight="64.0" prefWidth="433.0" style="-fx-background-color: C0BCB6;" text="LE SUE CAMPAGNE" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="239.0">
+               <font>
+                  <Font name="Arial Black" size="26.0" />
+               </font>
+               <effect>
+                  <DropShadow height="76.0" radius="37.5" spread="0.4" width="76.0" />
+               </effect>
+            </Label>
+            <JFXButton fx:id="Indietro" alignment="CENTER" buttonType="RAISED" layoutX="14.0" layoutY="464.0" maxHeight="80.0" maxWidth="220.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="156.0" ripplerFill="#5c526b" style="-fx-background-color: C0BCB6;" text="INDIETRO" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font>
+            </JFXButton>
+            <VBox alignment="CENTER" layoutX="343.0" layoutY="159.0" maxHeight="600.0" maxWidth="400.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="216.0" spacing="10.0" style="-fx-background-color: #C0BCB6;" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="343.0" AnchorPane.rightAnchor="353.0" AnchorPane.topAnchor="159.0">
+               <children>
+                  <JFXButton fx:id="Influenza" alignment="CENTER" buttonType="RAISED" disable="true" maxHeight="80.0" maxWidth="220.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="156.0" ripplerFill="#5c526b" style="-fx-background-color: C0BCB6;" text="Influenza" textAlignment="CENTER" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="Covid" alignment="CENTER" buttonType="RAISED" disable="true" maxHeight="80.0" maxWidth="220.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="156.0" ripplerFill="#5c526b" style="-fx-background-color: C0BCB6;" text="Covid-19" textAlignment="CENTER" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="Sars" alignment="CENTER" buttonType="RAISED" disable="true" layoutX="10.0" layoutY="96.0" maxHeight="80.0" maxWidth="220.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="156.0" ripplerFill="#5c526b" style="-fx-background-color: C0BCB6;" text="SarS" textAlignment="CENTER" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="Tetano" alignment="CENTER" buttonType="RAISED" disable="true" layoutX="10.0" layoutY="55.0" maxHeight="80.0" maxWidth="220.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="156.0" ripplerFill="#5c526b" style="-fx-background-color: C0BCB6;" text="Tetano" textAlignment="CENTER" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+               <effect>
+                  <DropShadow height="76.0" radius="37.5" spread="0.4" width="76.0" />
+               </effect>
+            </VBox>
+         </children>
+         <effect>
+            <InnerShadow choke="0.7" height="55.0" radius="27.0" width="55.0" />
+         </effect>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="685.0" prefHeight="21.0" prefWidth="396.0" text="Matteo Esposito Marroccela e Nicola Speri A.A.2020/2021" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="870.0" />
+   </children>
+</AnchorPane>
