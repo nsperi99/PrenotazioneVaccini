@@ -12,4 +12,3 @@ Il sistema mostra al cittadino anche la finestra temporale nella quale sono stat
 Il personale ASL associa ad ogni campagna vaccinale le categorie di cittadini che hanno diritto alle vaccinazioni con uno specifico vaccino.
 Il sistema memorizza i dati demografici essenziali per ogni cittadino: codice fiscale, numero di tessera sanitaria, cognome, nome, luogo e data di nascita, specifiche categorie appartenenza (paziente oncologico, paziente iperteso, paziente a rischio, e così via), e verifica che i dati delle registrazioni dei singoli cittadini siano corrette rispetto all’anagrafica a disposizione.
 
-Matteo Esposito Marroccella e Nicola Speri
